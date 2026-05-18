@@ -13,6 +13,14 @@ The dashboard focuses on:
 - USDC holder concentration
 - CEX vs on-chain flow classification
 
+## Key Insights
+
+- Stablecoin supply grew from ~$50B to ~$300B in 24 months
+- USDC and USDT dominate liquidity flows on Ethereum and L2s
+- CEX wallets remain the primary on/off ramp for capital movement
+- Arbitrum and Base are growing as DeFi stablecoin hubs
+- LATAM is one of the fastest-growing regions for stablecoin adoption
+
 ## Dashboard
 
 Dune Dashboard:
@@ -67,37 +75,3 @@ stablecoin-liquidity-monitor/
 ├── requirements.txt
 ├── .env.example
 └── .gitignore
-```
-
-## Queries
-
-### Monthly Stablecoin Volume
-
-- `queries/01_monthly_stablecoin_volume.sql`
-
-### Volume by Chain
-
-- `queries/02_volume_by_chain.sql`
-
-### Top USDC Holders
-
-- `queries/03_top_usdc_holders.sql`
-
-### USDC Flow Classification
-
-- `queries/04_usdc_flow_classification.sql`
-
-## Future Improvements
-
-- Add Polygon and Optimism support
-- Add automated Dune API ingestion
-- Generate automated PDF reports
-- Track additional stablecoins
-- Add whale wallet labeling
-
-## Author
-
-Higor Fernando
-
-- GitHub: https://github.com/higorfernandohf0-lgtm
-- Dune: https://dune.com/higorweb3
